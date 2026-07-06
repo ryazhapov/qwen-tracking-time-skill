@@ -1,0 +1,15 @@
+# State files — contain personal session IDs, paths, timings.
+# These are created at runtime; never commit real ones.
+.shown_sessions
+pending.jsonl
+task_assignments.jsonl
+branch_map.json
+submission_log.jsonl
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo

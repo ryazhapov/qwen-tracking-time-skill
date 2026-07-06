@@ -1,0 +1,17 @@
+{
+  "idle_timeout": 300,
+  "midnight_split": true,
+  "merge_short_visits_s": 300,
+  "viewing_branches": ["master", "main", "release/*", "develop", "HEAD"],
+  "timezone": "+03:00",
+  "history_horizon_days": 30,
+  "_reserved_for_mcp_server": {
+    "branch_regex": null,
+    "auto_submit_on_quit": true,
+    "sanitize_paths": true,
+    "tracker": {
+      "url_env": "TRACKER_API_URL",
+      "token_env": "TRACKER_API_TOKEN"
+    }
+  }
+}
